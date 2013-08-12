@@ -315,11 +315,11 @@ class Guestbook(webapp2.RequestHandler):
 <div id="section-3" class="section">
 	<p>
     	<form method="post" action="/sign" class="forms">
-		<label><h3>アルゴリズムの向上のため評価をお願いします <em class="req">*</em></h3></label>
+		<label><h3>アルゴリズムの向上のため評価をお願いします(ひとつ選んでください） <em class="req">*</em></h3></label>
 		<ul class="forms-inline-list">
 			<li><input name="evaluation" value="1" type="radio"> <label>非常に良い</label></li>
 			<li><input name="evaluation" value="2" type="radio"> <label>良い</label></li>
-			<li><input name="evaluation" value="3" type="radio"> <label>普通</label></li>
+			<li><input name="evaluation" value="3" type="radio" checked> <label>普通</label></li>
 			<li><input name="evaluation" value="4" type="radio"> <label>悪い</label></li>
       <li><input name="evaluation" value="5" type="radio"> <label>非常に悪い</label></li>
 		</ul>
