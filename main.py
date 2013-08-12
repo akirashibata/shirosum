@@ -76,7 +76,7 @@ MAIN_PAGE_HTML = """\
 <form method="post" action="/sign" class="forms">
 
   <div id="section-1" class="section">
-    <h1>①URLで要約</h1>
+    <h1>1.URLで要約</h1>
   <label>
     URL
     <table class="width-100 table-flat">
@@ -90,10 +90,10 @@ MAIN_PAGE_HTML = """\
     </div>  
     
     <div id="section-2" class="section">
-    <h1>②コピペで要約</h1>
+    <h1>2.コピペで要約</h1>
     <label>
     タイトル
-    <input type="text" name="title" size="100" />
+    <input type="text" name="title" class="width-100" />
   </label>
     
   <label>
