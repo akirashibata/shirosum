@@ -81,7 +81,7 @@ MAIN_PAGE_HTML = """\
     URL
     <table class="width-100 table-flat">
       <tr>
-        <td><span class="input-prepend">http://</span></td>
+        <td><span class="input-prepend">URL</span></td>
         <td class="width-100"><input type="url" name="url" class="width-100"></td>
       </tr>
     </table>
