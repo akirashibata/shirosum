@@ -54,16 +54,17 @@ class HtmlContents(object):
       <div class="conatainer clearfix">
           <h1 id="logo">シロサム</h1>
             <div id="social-btns">
-              <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shirosum.appspot.com/" data-text="シロサムでテキストを自動要約" data-lang="ja" data-hashtags="shirosum">ツイート</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
-              <div id="facebook"><div class="fb-like" data-width="450" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div></div><!-- / #facebook -->
-          </div>
+        	<div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shirosum.appspot.com/" data-text="シロサムでテキストを自動要約" data-lang="ja" data-hashtags="shirosum">ツイート</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+        	<div id="facebook"><div class="fb-like" data-width="110" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div></div><!-- / #facebook -->
+            <a href="http://b.hatena.ne.jp/entry/http://shirosum.appspot.com/" class="hatena-bookmark-button" data-hatena-bookmark-title="白ヤギが自動で要約します" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async></script>
+    	    </div>
         </div>
     </header>
 
     <div id="section-desc">
       <h1 id="h-desc" class="text-shadow clear">"""+top_message+"""</h1>
-      <p id="desc">このサービスはごくシンプルなルールに基づいてテキストの自動要約を行う実験的サービスです。与えられたニュース記事の中から最も重要な3つのポイントを抜き出すことで、限られた時間の中でも効率よく情報を吸収できることを目的にしています。なお、商用利用をご希望の方は、白ヤギコーポレーション（info at shiroyagi.co.jp) までお問い合わせ下さい。</p>
+      <p id="desc">このサービスはごくシンプルなルールに基づいてテキストの自動要約を行う実験的サービスです。与えられたニュース記事の中から最も重要な3つのポイントを抜き出すことで、限られた時間の中でも効率よく情報を吸収できることを目的にしています。なお、商用利用をご希望の方は、白ヤギコーポレーション（info at shiroyagi.co.jp) までお問い合わせ下さい。なお、現在のところ英語のサイトには対応しておりませんので、ご了承下さい。</p>
     </div>
 
     <div>
@@ -139,11 +140,12 @@ class HtmlContents(object):
     <header id="header" class="clearfix">
       <div class="conatainer clearfix">
           <h1 id="logo">シロサム</h1>
-            <div id="social-btns">
-              <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shirosum.appspot.com/" data-text="シロサムでテキストを自動要約" data-lang="ja" data-hashtags="shirosum">ツイート</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
-              <div id="facebook"><div class="fb-like" data-width="450" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div></div><!-- / #facebook -->
-          </div>
+             <div id="social-btns">
+        	<div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shirosum.appspot.com/" data-text="シロサムでテキストを自動要約" data-lang="ja" data-hashtags="shirosum">ツイート</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+        	<div id="facebook"><div class="fb-like" data-width="110" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div></div><!-- / #facebook -->
+            <a href="http://b.hatena.ne.jp/entry/http://shirosum.appspot.com/" class="hatena-bookmark-button" data-hatena-bookmark-title="白ヤギが自動で要約します" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async></script>
+    	    </div>
         </div>
     </header>
 
@@ -159,6 +161,10 @@ class HtmlContents(object):
           しろヤギコーポレーションでは自動要約を始めとする多数の先端研究に基づき、ビジネスパーソンのための新しいニュースサービスを開発中です。
           近日中にテストローンチを予定しておりますので、ご興味のある方は下記よりご登録下さい。
         </p>
+
+      <a href="http://bizzlio.shiroyagi.co.jp">
+        <img src="http://bizzlio.shiroyagi.co.jp/system/logos/1306/original/logo.jpg?1376467655" />
+      </a>
     </div>
 
     <p><a href="http://shirosum.appspot.com/">もう一度要約する</a></p>       
@@ -212,10 +218,11 @@ class HtmlContents(object):
       s+=('<p>3. ')
       s+=(jres['bullets'][2][0])
       s+=('</p>')
-    if float(jres['compression']) < 20.:
+    if len(jres['bullets'])>3:
       s+=('<p>4. ')
       s+=(jres['bullets'][3][0])
       s+=('</p>')
+    if len(jres['bullets'])>4:
       s+=('<p>5. ')
       s+=(jres['bullets'][4][0])
       s+=('</p>')
@@ -256,11 +263,12 @@ class HtmlContents(object):
     <header id="header" class="clearfix">
       <div class="conatainer clearfix">
           <h1 id="logo">シロサム</h1>
-            <div id="social-btns">
-              <div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shirosum.appspot.com/" data-text="シロサムでテキストを自動要約" data-lang="ja" data-hashtags="shirosum">ツイート</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
-              <div id="facebook"><div class="fb-like" data-width="450" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div></div><!-- / #facebook -->
-          </div>
+               <div id="social-btns">
+        	<div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shirosum.appspot.com/" data-text="シロサムでテキストを自動要約" data-lang="ja" data-hashtags="shirosum">ツイート</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+        	<div id="facebook"><div class="fb-like" data-width="110" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div></div><!-- / #facebook -->
+            <a href="http://b.hatena.ne.jp/entry/http://shirosum.appspot.com/" class="hatena-bookmark-button" data-hatena-bookmark-title="白ヤギが自動で要約します" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async></script>
+    	    </div>
         </div>
     </header>
 
